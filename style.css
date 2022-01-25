@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+.bigbox, .smallbox{
+    height: 50%
+}
+.bigbox{
+    background-color: bisque;
+}
+.smallbox{
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;;
+}
+.smallbox div{
+    height: 50%;
+    width: 50%;
+}
+.smallbox div:nth-child(1){
+    background-color: rosybrown;
+}
+.smallbox div:nth-child(2){
+    background-color: peachpuff;
+}
+.smallbox div:nth-child(3){
+    background-color: lemonchiffon;
+}
+.smallbox div:nth-child(4){
+    background-color: khaki;
+}
